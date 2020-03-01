@@ -1,0 +1,24 @@
+task main()
+{
+//  SetSensor(SENSOR_2,SENSOR_LIGHT);
+  OnFwd(OUT_A+OUT_C);
+  CreateDatalog(100);
+  int x = 0;
+  int y = 50;
+  repeat (50)
+  {
+    AddToDatalog(x);
+    AddToDatalog(y);
+/*
+    AddToDatalog(SENSOR_2);
+    if ((y < 30) && (y > 20))
+    {
+        AddToDatalog(SENSOR_1);
+    }
+    Wait(20);
+*/
+    x++;
+    y--;
+  }
+  Off(OUT_A+OUT_C);
+}

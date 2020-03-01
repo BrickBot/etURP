@@ -1,2 +1,132 @@
 # etURP
  En-Tech Ultimate Robot Programmer is a program to create NQC (Not Quite C) files for LEGO Mindstorms robots. It uses a powerful language and interface to access the full potential of the Mindstorms RCX brick.
+
+Original website – http://eturp.sf.net/
+
+This project released both a version 1.0 and 1.5; unfortunately, the release archive labels as the source archive for v1.5 duplicated the built archive and contained no source.
+Additionally, a SourceForge version control repository was not used, so the only source available was v1.0.
+
+
+				-----------------------------------
+				      En-Tech URP Readme
+				    (C) Dean Camera, 2003
+				-----------------------------------
+
+	    * BEST VIEWED AT 1024x768 RESOLUTION WITH MAXIMISED WINDOW AND WORD WRAP ENABLED *
+
+Thankyou for downloading En-Tech Ultimate Robot Programmer. I hope you enjoy this program.
+
+Note: Run Register.bat before running the program. This file is located in the \{EN-TECH URP DIR}\Bin\ directory.
+
+
+****************************************************Updates:*****************************************************
+
+					   	   ~PREVIOUS:~
+
+- Added Options screen.
+
+- Fixed NQC.exe find failure.
+
+- Added a "Transpose" function on the piano.
+
+- Added Charmelion Buttons to look like XP.
+
+- Added Microscout programmer.
+
+- Fixed (again) NQC.exe find failure.
+
+- Made a .BAT file to easily register all the etURP's components.
+
+- Added new menus, courtesy of LaVolpe's subclassed menus tool.
+
+- Added XP-like message boxes, using XPLib.
+
+- Added XP-like components.
+
+						  ~THIS VERSION:~
+
+- XP lib has been removed, because this was causing most of the crashes, and was too big.
+
+- Most of the fancy XP like controls (Checkboxes, Optiuon Buttons, etc.) have been removed to free up resources. This was
+  nessesary because etURP was taking up 67% of my system's resources. It now takes up less than 20%. Charmelion button is
+  still used.
+
+- WellsXPStatusBar has been implemented
+
+- Added some XP like icons in the toolbar and menus.
+
+*****************************************************************************************************************
+
+-----------------------------------
+          INTRODUCTION
+-----------------------------------
+
+I first got the idea for En-Tech URP from "RCX Control Center", written in Delphi by Mark Overmars. This used a simple interface that allowed you to program thr RCX in the NQC (Not Quite C) Language. The NQC compiler is (C) David Baum.
+
+As Mark Overmars' work load increased, he had little time to update RCXCC, and so made the Delphi source code avalible on the Internet. RCXCC and Bricx Control Center followed on from his work, building upon his source code. BricxCC is (C) John Hansen.
+
+As I have done a little exploration of the Spirit.ocx (the component allowing users to interact with the RCX in their own programs), and I am a good programmer in Visual Basic, I decided to create my own version. Spirit.ocx (C) Lego.
+
+After downloading the source code to BricxCC and RCXCC, I started work upon my own version. I have an old copy of Delphi lying around, so I was able to view the code, but unfortunatly I am not skilled in the Pascal language (required for Delphi). Much of the source code baffled me, but the calls the the spirit.ocx we not unlike that of Visual Basic, so I was able to see "under the hood" of the two programs. I was able to rewrite my own original code in VB that functioned the same as the Delphi counterpart. Although I recieved ideas from the two programs' source codes, all the code used in En-Tech URP is my own, unless indicated.
+
+Special thanks to Aaron Bennear for his "rtbSyntax" Control, which allows En-Tech URP to colour-code your programs.
+Also thanks to "Wells" for his "xpwellstab" Control, used in the Options screen.
+En-Tech URP also uses "axcolctl.ocx", a collection of colour components, but I have been unable to find copyrite information for this file, and "xpstylelib.ocx", which allows ETURP to emulate XP like components. The XP Buttons used in etURP are from the "chameleonButton" control, made by Gonchuki. The good-looking menus are made by LaVolpe, with his "Submenus V2" control. The XP-Style SideBars are made by "REDIRACK". The XP like status bar is made by "Wells".
+
+All rights to these components are to their respective owners.
+
+The files contained in the "examples" directory are not my own.
+Please Note that I have edited and modified the "rtbSyntax" control to better work in ETURP.
+
+The "rtbSyntax", "xpwellstab", "xpwellsstatusbar", "LaVolpe Submenus V2" and "chameleonButton" controls are embedded in the etURP file, and do not need a seperate DLL or OCX file.
+
+----------------------MISC. CONTRIBUTORS:----------------------
+Anonymous				  File Association Code
+LockwoodTech			     Synchronous EXE Processing
+MEGALOS					      Find-Replace Code
+Eric Banker				     Line Counting Code
+---------------------------------------------------------------
+
+-----------------------------------
+           OTHER FILES
+-----------------------------------
+
+External programs are listed below:
+
+Directory of File:			Description:						Copyrite:
+----------------------------------------------------------------------------------------------------------------
+\{EN-TECH URP DIR}\Bin\nqc.exe		NQC Compiler						David Baum
+\{EN-TECH URP DIR}\Bin\libvll.nqc	.nqc code for the MicroScout Programmer (VLL Language)  Freeware
+\{EN-TECH URP DIR}\Bin\spirit.ocx	Server between VB and RCX/PBrick			LEGO
+\{EN-TECH URP DIR}\Bin\FirmXXXX.lgo	LEGO Firmware (Versions RCX and RCX2)			LEGO
+\{EN-TECH URP DIR}\Bin\axcolctl.ocx	Color control used in ETURP				(Unknown)
+\{EN-TECH URP DIR}\Bin\SideMenus.ocx	XP-like side menus					REDIRACK
+\{EN-TECH URP DIR}\Bin\Regit.exe	OCX and DLL Register Program				Microsoft
+
+-----------------------------------
+         TROUBLESHOOTING
+-----------------------------------
+
+If you encounter an error in etURP, some of the following fixes may work. If the error you have is not here, please send me an email at dean_camera@hotmail.com.
+
+PROBLEM:  Upon startup, I get an "ActiveX can't creat object" error.
+FIX:  Run the \Bin\Register.Bat program.
+
+PROBLEM:  I keep getting "Remember to call InitComm or ReInitComm..." everytime I try to open a window from the menus, or when I press buttons.
+FIX:  etURP has closed communication with the RCX, possibly to allow NQC.exe to run. etURP should automatically reopen communication after this program finishes, but you can manually open communication by pressing the "Find Brick" button, restarting etURP, or clicking "Open Communication" from the TOOLS menu.
+
+PROBLEM:  My RCX is on, and the Program found it, but the RCX Piano won't play the notes I press.
+FIX:  etURP is not finding the RCX. Move it closer to the IR Tower, or/and switch off any bright lights or Compact Flurecent lights.
+
+PROBLEM:  My IR Tower is on a COM port, but when I click the AUTO button, it finds my modem and I can't use my RCX.
+FIX:  Move the Modem to a higher port number than the tower, or select your COM Port from the list.
+
+PROBLEM:  The program crashes when I choose "List Subs/Functions/Tasks" from the Edit Menu.
+FIX:  SideMenus.ocx is not registered. Please run \Bin\Register.Bat program.
+
+-----------------------------------
+           DISCLAIMER
+-----------------------------------
+
+En-Tech URP is in NO WAY connected withe the LEGO group or company. Use this program AT YOUR OWN RISK.
+Comments, questions and bug reports can be sent to "dean_camera@hotmail.com".

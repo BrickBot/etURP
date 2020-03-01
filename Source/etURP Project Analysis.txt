@@ -1,0 +1,741 @@
+#AnalyzeThis! - Mallesh Bonigala
+#Generated 28/08/03-28/08/03 9:27:58 PM
+Project=etUCP.vbp
+****************
+    
+The Details of the Analysis is as follows:
+    
+etUCP
+Project Type : Exe
+Project Path : 
+Project Total Lines : 10865
+Classes (3)
+Forms (16)
+Modules (4)
+MainSubs
+Number of Lines : 97
+Declarations
+Functions
+Subroutines
+Variable Declarations
+Number of Lines : 68
+ExecCmd
+Number of Lines : 16
+BrickTypeHeader
+Number of Lines : 6
+BCandLASMBrickTypeHeader
+Number of Lines : 5
+EasterEgg
+Number of Lines : 2
+frmMain
+Number of Lines : 1638
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 780
+Command1_Click
+Number of Lines : 3
+MDIForm_Load
+Number of Lines : 23
+LoadNewDoc
+Number of Lines : 8
+LoadFileFromCommand
+Number of Lines : 8
+MDIForm_Unload
+Number of Lines : 11
+MNUCCom_Click
+Number of Lines : 13
+MNUCLRMEM_Click
+Number of Lines : 13
+mnuCOMPILEPROGRAM_Click
+Number of Lines : 42
+MNUDControl_Click
+Number of Lines : 3
+MNUdf_Click
+Number of Lines : 14
+MNUDiagnostics_Click
+Number of Lines : 3
+MNUDownLoad_Click
+Number of Lines : 34
+MNUDownLoadRun_Click
+Number of Lines : 34
+mnuEditPaste_Click
+Number of Lines : 4
+MNUFBrick_Click
+Number of Lines : 5
+MNUgoto_Click
+Number of Lines : 9
+MNUGotoTFS_Click
+Number of Lines : 3
+MNUlongrange_Click
+Number of Lines : 6
+MNUMMap_Click
+Number of Lines : 3
+MNUMemMap_Click
+Number of Lines : 3
+MNUmsprgmr_Click
+Number of Lines : 3
+MNUOCom_Click
+Number of Lines : 13
+MNUOptions_Click
+Number of Lines : 3
+MNUP1_Click
+Number of Lines : 9
+MNUP2_Click
+Number of Lines : 9
+MNUP3_Click
+Number of Lines : 9
+MNUP4_Click
+Number of Lines : 9
+MNUP5_Click
+Number of Lines : 9
+MNURcxPiano_Click
+Number of Lines : 3
+MNURCXvar_Click
+Number of Lines : 3
+MNURCXWatch_Click
+Number of Lines : 3
+MNUSetPDTime_Click
+Number of Lines : 3
+MNUshortrange_Click
+Number of Lines : 6
+MNUSTemplates_Click
+Number of Lines : 10
+MNUTOFF_Click
+Number of Lines : 4
+Port_Click
+Number of Lines : 32
+ProgramNum_Click
+Number of Lines : 39
+SmallTB_ButtonClick
+Number of Lines : 3
+SmallTB_ButtonMenuClick
+Number of Lines : 3
+TBCheck_Timer
+Number of Lines : 42
+tbToolBar_ButtonClick
+Number of Lines : 55
+mnuHelpAbout_Click
+Number of Lines : 3
+mnuWindowArrangeIcons_Click
+Number of Lines : 3
+mnuWindowTileVertical_Click
+Number of Lines : 3
+mnuWindowTileHorizontal_Click
+Number of Lines : 3
+mnuWindowCascade_Click
+Number of Lines : 3
+mnuWindowNewWindow_Click
+Number of Lines : 3
+mnuViewStatusBar_Click
+Number of Lines : 4
+mnuViewToolbar_Click
+Number of Lines : 4
+mnuEditCopy_Click
+Number of Lines : 4
+mnuEditCut_Click
+Number of Lines : 5
+mnuFileExit_Click
+Number of Lines : 3
+mnuFilePrint_Click
+Number of Lines : 19
+mnuFilePageSetup_Click
+Number of Lines : 8
+mnuFileSaveAs_Click
+Number of Lines : 18
+mnuFileSave_Click
+Number of Lines : 23
+mnuFileClose_Click
+Number of Lines : 6
+mnuFileOpen_Click
+Number of Lines : 33
+mnuFileNew_Click
+Number of Lines : 3
+REOPENCOMWHENDONE
+Number of Lines : 11
+closecom
+Number of Lines : 9
+FindWindow
+Number of Lines : 10
+DisableEnableCommands
+Number of Lines : 20
+FlickMode
+Number of Lines : 3
+WaitForNQC
+Number of Lines : 10
+tbToolBar_ButtonMenuClick
+Number of Lines : 16
+WaitForLCC
+Number of Lines : 9
+LCCREOPENCOMWHENDONE
+Number of Lines : 21
+GetFilePath
+Number of Lines : 9
+LoadStuff
+Number of Lines : 77
+AddAFText
+Number of Lines : 3
+frmDocument
+Number of Lines : 173
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 76
+Errors_DblClick
+Number of Lines : 4
+Form_Load
+Number of Lines : 7
+Form_QueryUnload
+Number of Lines : 37
+Form_Resize
+Number of Lines : 18
+GoToLine
+Number of Lines : 24
+ShowErrorsBox
+Number of Lines : 4
+RefreshColour
+Number of Lines : 3
+MSprogrammer
+Number of Lines : 688
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 538
+Command1_Click
+Number of Lines : 24
+FixCommand
+Number of Lines : 33
+Command2_Click
+Number of Lines : 4
+Command3_Click
+Number of Lines : 5
+Command4_Click
+Number of Lines : 12
+Command5_Click
+Number of Lines : 18
+Translate
+Number of Lines : 18
+BackFixCommand
+Number of Lines : 29
+Command6_Click
+Number of Lines : 3
+Form_Load
+Number of Lines : 4
+about
+Number of Lines : 266
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 223
+Command1_MouseUp
+Number of Lines : 5
+Command2_Click
+Number of Lines : 3
+Command3_Click
+Number of Lines : 3
+Form_Load
+Number of Lines : 5
+Spirit_AsyncronBrickError
+Number of Lines : 3
+Spirit_DownloadDone
+Number of Lines : 7
+Spirit_DownloadSize
+Number of Lines : 3
+Spirit_downloadStatus
+Number of Lines : 8
+Spirit_DownloadTime
+Number of Lines : 3
+Spirit_DownloadTimeAndSize
+Number of Lines : 3
+SetWatch
+Number of Lines : 234
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 181
+closecom
+Number of Lines : 4
+REOPENCOMWHENDONE
+Number of Lines : 12
+FindWindow
+Number of Lines : 10
+Command1_Click
+Number of Lines : 9
+Command2_Click
+Number of Lines : 3
+Form_Load
+Number of Lines : 4
+VScroll1_Change
+Number of Lines : 3
+VScroll2_Change
+Number of Lines : 3
+VScroll3_Change
+Number of Lines : 3
+VScroll4_Change
+Number of Lines : 2
+diagnostics
+Number of Lines : 263
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 217
+AutoUpdate_Timer
+Number of Lines : 36
+Form_Load
+Number of Lines : 5
+SetVersionText
+Number of Lines : 5
+autopowerdown
+Number of Lines : 105
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 84
+ASet_Click
+Number of Lines : 7
+chameleonButton1_Click
+Number of Lines : 3
+Form_Load
+Number of Lines : 3
+PDT_Change
+Number of Lines : 8
+DirectControl
+Number of Lines : 1662
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 1581
+chameleonButton1_Click
+Number of Lines : 2
+Command1_Click
+Number of Lines : 4
+Command10_Click
+Number of Lines : 3
+Command11_Click
+Number of Lines : 3
+Command12_Click
+Number of Lines : 4
+Command18_Click
+Number of Lines : 3
+Command19_Click
+Number of Lines : 9
+Command2_Click
+Number of Lines : 4
+Command25_Click
+Number of Lines : 9
+Command3_Click
+Number of Lines : 3
+Command4_Click
+Number of Lines : 3
+Command5_Click
+Number of Lines : 4
+Command6_Click
+Number of Lines : 3
+Command7_Click
+Number of Lines : 3
+Command8_Click
+Number of Lines : 4
+Command9_Click
+Number of Lines : 4
+FocusButton_Click
+Number of Lines : 2
+Form_Load
+Number of Lines : 6
+speed1_Click
+Number of Lines : 3
+speed2_Click
+Number of Lines : 3
+speed3_Click
+Number of Lines : 2
+searchRCX
+Number of Lines : 496
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 245
+AutoCheck_Click
+Number of Lines : 3
+CMaster_Click
+Number of Lines : 8
+Command1_Click
+Number of Lines : 158
+Command2_Click
+Number of Lines : 21
+Form_Load
+Number of Lines : 53
+Option6_Click
+Number of Lines : 4
+Option7_Click
+Number of Lines : 4
+RCXPiano
+Number of Lines : 934
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 766
+BlackPianoKey_Click
+Number of Lines : 20
+chameleonButton1_Click
+Number of Lines : 7
+Command1_Click
+Number of Lines : 13
+Command2_Click
+Number of Lines : 8
+Command3_Click
+Number of Lines : 12
+Command4_Click
+Number of Lines : 26
+Command5_Click
+Number of Lines : 12
+Form_Load
+Number of Lines : 34
+Option1_Click
+Number of Lines : 3
+Option2_Click
+Number of Lines : 3
+Option3_Click
+Number of Lines : 3
+Option4_Click
+Number of Lines : 3
+Option5_Click
+Number of Lines : 3
+PianoKey_Click
+Number of Lines : 21
+Poll
+Number of Lines : 963
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 775
+AutoPoll_Timer
+Number of Lines : 3
+Check1_Click
+Number of Lines : 19
+Check2_Click
+Number of Lines : 4
+Command1_Click
+Number of Lines : 5
+Command2_Click
+Number of Lines : 5
+Form_Load
+Number of Lines : 83
+PVariables_Click
+Number of Lines : 17
+Text1_Change
+Number of Lines : 2
+Sensor1_Click
+Number of Lines : 17
+Sensor2_Click
+Number of Lines : 17
+Sensor3_Click
+Number of Lines : 16
+MemMap
+Number of Lines : 161
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 87
+Command1_Click
+Number of Lines : 3
+DelayLoad_Timer
+Number of Lines : 21
+Form_Load
+Number of Lines : 7
+GetRCXMap
+Number of Lines : 11
+AddSubPointers
+Number of Lines : 26
+AddLine
+Number of Lines : 4
+Form_Unload
+Number of Lines : 2
+Options
+Number of Lines : 498
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 388
+Check1_Click
+Number of Lines : 2
+Command1_Click
+Number of Lines : 9
+Command2_Click
+Number of Lines : 3
+Command2_MouseDown
+Number of Lines : 5
+Command3_Click
+Number of Lines : 4
+egbutton_Click
+Number of Lines : 3
+Form_Load
+Number of Lines : 10
+FixOptions
+Number of Lines : 6
+GetValues
+Number of Lines : 18
+GetDefaults
+Number of Lines : 13
+SaveValues
+Number of Lines : 21
+OpTab_TabPressed
+Number of Lines : 6
+GlobalRefresh
+Number of Lines : 10
+mCommonDialog
+Number of Lines : 73
+Declarations
+Functions
+Subroutines
+Variable Declarations
+Number of Lines : 27
+DialogFilter
+Number of Lines : 10
+OpenCommonDialog
+Number of Lines : 21
+GetFileNametoSave
+Number of Lines : 15
+mXPWells
+Number of Lines : 304
+Declarations
+Functions
+Subroutines
+Variable Declarations
+Number of Lines : 112
+TranslateColorToRGB
+Number of Lines : 33
+DrawGradient
+Number of Lines : 46
+DrawASquare
+Number of Lines : 16
+DrawALine
+Number of Lines : 12
+DrawADot
+Number of Lines : 3
+RoundCorners
+Number of Lines : 9
+GetRect
+Number of Lines : 3
+CleanDC
+Number of Lines : 4
+SetTheTextColor
+Number of Lines : 3
+DrawTheText
+Number of Lines : 3
+GetTextRect
+Number of Lines : 3
+CopyTheRect
+Number of Lines : 3
+PositionRect
+Number of Lines : 3
+DeleteObjectReference
+Number of Lines : 3
+SetAccessKey
+Number of Lines : 16
+TabNext
+Number of Lines : 7
+ResizeRect
+Number of Lines : 4
+ClearRect
+Number of Lines : 3
+MouseCoordinatesIsOver
+Number of Lines : 6
+MouseOver
+Number of Lines : 12
+cImageManipulation
+Number of Lines : 281
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 80
+PaintTransparentDC
+Number of Lines : 112
+PaintTransparentPicture
+Number of Lines : 79
+Class_Initialize
+Number of Lines : 7
+Class_Terminate
+Number of Lines : 3
+cTabs
+Number of Lines : 28
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 20
+TabIcon
+Number of Lines : 3
+TabIcon
+Number of Lines : 3
+Class_Terminate
+Number of Lines : 2
+XPInterface
+Number of Lines : 58
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 15
+AboutXP
+Number of Lines : 3
+XPInputBox
+Number of Lines : 3
+XPMsgBox
+Number of Lines : 3
+XPMsgExitSystem
+Number of Lines : 3
+XPChangeMsgBoxBackColour
+Number of Lines : 4
+XPShutdown
+Number of Lines : 3
+XPCloseCDDoor
+Number of Lines : 3
+XPOpenCDDoor
+Number of Lines : 3
+XPGetUserName
+Number of Lines : 3
+XPGetComputerName
+Number of Lines : 3
+XPGetMemStatus
+Number of Lines : 3
+XPGetSystemPath
+Number of Lines : 3
+XPOpenSystemInfo
+Number of Lines : 3
+Class_Initialize
+Number of Lines : 3
+Files
+Number of Lines : 35
+Declarations
+Functions
+Subroutines
+Variable Declarations
+Number of Lines : 15
+AssociateFile
+Number of Lines : 20
+Templates
+Number of Lines : 1486
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 1401
+Form_Load
+Number of Lines : 5
+Form_Terminate
+Number of Lines : 5
+Form_Unload
+Number of Lines : 3
+Template_Click
+Number of Lines : 72
+firmwaredownload
+Number of Lines : 260
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 209
+FirmwareTimer_Timer
+Number of Lines : 6
+Form_Load
+Number of Lines : 7
+DownloadFirmware
+Number of Lines : 14
+UnlockDownloadedFirmware
+Number of Lines : 11
+WarnDownloadError
+Number of Lines : 6
+UpdateFirmwareSpecs
+Number of Lines : 5
+Image1_Click
+Number of Lines : 2
+SubsFunctionsTasks
+Number of Lines : 162
+Declarations
+Functions
+Subroutines
+Properties
+Variable Declarations
+Number of Lines : 89
+GotoTSF
+Number of Lines : 31
+ParseLine
+Number of Lines : 24
+RemoveJunk
+Number of Lines : 14
+Form_Load
+Number of Lines : 4
+****************
+    
+The Summary of the Analysis is as follows:
+    
+Total Number of Lines:  
+ 10865 
+Total Number of Classes:  
+ 3 
+Total Number of Forms:  
+ 16 
+Total Number of Modules:  
+ 4 
+Total Number of Functions:  
+ 41 
+Total Number of Properties:  
+ 2 
+Total Number of Subroutines:  
+ 209 
+Smallest Project:  
+etUCP
+Lines in Smallest Project:  
+ 10865 
+Largest Project:  
+etUCP
+Lines in Largest Project:  
+ 10865 
+Average Lines per Project:  
+ 10865 
+Average Lines per Function:  
+ 11.5 
+Average Lines per Subroutine:  
+ 11.5 
+Average Lines per Property:  
+ 3 
+Total Lines in Functions:  
+ 472 
+Total Lines in Subroutines:  
+ 2410 
+Total Lines in Properties:  
+ 6 
+         
+**********************
+#End of File

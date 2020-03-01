@@ -1,0 +1,38 @@
+VERSION 5.00
+Begin VB.PropertyPage Property 
+   Caption         =   "Formatting"
+   ClientHeight    =   3600
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   4800
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3600
+   ScaleWidth      =   4800
+   Begin VB.TextBox Code 
+      Height          =   3015
+      Left            =   120
+      MultiLine       =   -1  'True
+      ScrollBars      =   2  'Vertical
+      TabIndex        =   0
+      Top             =   480
+      Width           =   4575
+   End
+   Begin VB.Label AddCode 
+      Alignment       =   2  'Center
+      BackStyle       =   0  'Transparent
+      Caption         =   "Add the following to the CODE section of your project:"
+      Height          =   255
+      Left            =   120
+      TabIndex        =   1
+      Top             =   120
+      Width           =   4575
+   End
+End
+Attribute VB_Name = "Property"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub PropertyPage_SelectionChanged()
+    Code = "Private Sub Form_Load()" & vbCrLf & "    Me.BackColor = Titlebar.DefaultBackgroundColor" & vbCrLf & "    " & vbCrLf & "    Me.Caption = ""Form Caption""" & vbCrLf & "    Titlebar.Caption = Me.Caption" & vbCrLf & "    " & vbCrLf & "    Titlebar.TransparentEdges" & vbCrLf & "End Sub" & vbCrLf & "    " & vbCrLf & "Private Sub Form_Resize()" & vbCrLf & "    Titlebar.Left = 0" & vbCrLf & "    Titlebar.Top = 0" & vbCrLf & "    Titlebar.Width = Me.Width" & vbCrLf & "    Titlebar.Height = Me.Height" & vbCrLf & "End Sub"
+End Sub
