@@ -1,9 +1,9 @@
 # etURP
- En-Tech Ultimate Robot Programmer is a program to create NQC (Not Quite C) files for LEGO Mindstorms robots. It uses a powerful language and interface to access the full potential of the Mindstorms RCX brick.
+ En-Tech Ultimate Robot Programmer is a program to create NQC (Not Quite C) files for LEGO Mindstorms robots. It uses a powerful language and interface to access the full potential of the MindStorms RCX brick.
 
 Original website – http://eturp.sf.net/
 
-This project released both a version 1.0 and 1.5; unfortunately, the release archive labels as the source archive for v1.5 duplicated the built archive and contained no source.
+This project released both a version 1.0 and 1.5; unfortunately, the release archive labeled as the source archive for v1.5 duplicated the build archive and contained no source.
 Additionally, a SourceForge version control repository was not used, so the only source available was v1.0.
 
 
@@ -61,11 +61,11 @@ Note: Run Register.bat before running the program. This file is located in the \
           INTRODUCTION
 -----------------------------------
 
-I first got the idea for En-Tech URP from "RCX Control Center", written in Delphi by Mark Overmars. This used a simple interface that allowed you to program thr RCX in the NQC (Not Quite C) Language. The NQC compiler is (C) David Baum.
+I first got the idea for En-Tech URP from "RCX Control Center", written in Delphi by Mark Overmars. This used a simple interface that allowed you to program the RCX in the NQC (Not Quite C) Language. The NQC compiler is © David Baum.
 
-As Mark Overmars' work load increased, he had little time to update RCXCC, and so made the Delphi source code avalible on the Internet. RCXCC and Bricx Control Center followed on from his work, building upon his source code. BricxCC is (C) John Hansen.
+As Mark Overmars' work load increased, he had little time to update RCXCC, and so made the Delphi source code avalible on the Internet. RCXCC and Bricx Control Center followed on from his work, building upon his source code. BricxCC is © John Hansen.
 
-As I have done a little exploration of the Spirit.ocx (the component allowing users to interact with the RCX in their own programs), and I am a good programmer in Visual Basic, I decided to create my own version. Spirit.ocx (C) Lego.
+As I have done a little exploration of the Spirit.ocx (the component allowing users to interact with the RCX in their own programs), and I am a good programmer in Visual Basic, I decided to create my own version. Spirit.ocx © Lego.
 
 After downloading the source code to BricxCC and RCXCC, I started work upon my own version. I have an old copy of Delphi lying around, so I was able to view the code, but unfortunatly I am not skilled in the Pascal language (required for Delphi). Much of the source code baffled me, but the calls the the spirit.ocx we not unlike that of Visual Basic, so I was able to see "under the hood" of the two programs. I was able to rewrite my own original code in VB that functioned the same as the Delphi counterpart. Although I recieved ideas from the two programs' source codes, all the code used in En-Tech URP is my own, unless indicated.
 
